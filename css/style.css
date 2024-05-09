@@ -78,7 +78,7 @@ img[alt='profile'] img:hover {
     filter: drop-shadow(0 0 25px red);
 }
 /* Heading's glowing */
-.name, .developer, .lead, #Ab, #Ed, #skill, #wrk, #proj {
+.name, .developer, .lead, #Ab, #Ed, #skill, #wrk, #proj, #testimonial, #reach {
     color:white;
     text-shadow:
     0 0 5px red,
@@ -263,3 +263,45 @@ img[alt='profile'] img:hover {
   #shadow {
     box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px white
   }
+
+  
+ .testimg {
+    width: 300px;
+    
+ }
+ #testimonials {
+    border: 3px solid #ccc; 
+    padding: 10px;
+    
+    box-shadow: 0 0 10px red,0 0 20px red, 0 0 50px red 
+  }
+  .carousel-content {
+    color: white;
+  }
+  .carousel-content h3 {
+    font-weight: bold;  
+  }
+  .carousel-content p {
+    font-size: 18px;
+  }
+  #anushka, #robin {
+    width:400px;
+    height: 400px;
+  }
+
+  #formz {
+ background: white;
+ box-shadow: 0 0 20px white;
+ width: 1000px;
+ position: relative;
+ right: -150px;
+ 
+  }
+  #sub {
+text-shadow: 0 0 15px white;
+  }
+  section{
+    scroll-margin-block: 8rem;
+}
+  
+  
